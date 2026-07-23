@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { init } from '@telegram-apps/sdk-react';
 
 export default function App() {
-  const [screen, setScreen] = useState('home');
 
   useEffect(() => {
     init();
